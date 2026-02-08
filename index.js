@@ -1,4 +1,4 @@
-import OpenAI from "openai";
+/*import OpenAI from "openai";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -11,3 +11,13 @@ const response = openai.responses.create({
 });
 
 response.then((result) => console.log(result.output_text));
+
+import { ChatOpenAI } from "@langchain/openai"
+
+const llm = new ChatOpenAI({
+  model: "gpt-4.1",
+  temperature: 0,
+  // other params...
+})
+
+*/
