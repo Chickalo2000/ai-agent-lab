@@ -1,7 +1,26 @@
 {
+  "name": "javascript-langchain",
+  "version": "1.0.0",
+  "description": "AI Agent using LangChain and GitHub Models",
+  "homepage": "https://github.com/Chickalo2000/ai-agent-lab#readme",
+  "bugs": {
+    "url": "https://github.com/Chickalo2000/ai-agent-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chickalo2000/ai-agent-lab.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module (for ES6 imports)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@langchain/core": "^1.1.19",
     "@langchain/openai": "^1.2.5",
+    "dotenv": "^17.2.4",
     "openai": "^6.18.0"
   }
 }
